@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+.navbar .btn{
+    background: linear-gradient(45deg, #57007B, #6675F7);
+    border: none;
+
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-item a{
+    color: #4A5568;
+}
+.navbar{
+    box-shadow: 0px -3px 13px rgb(0 0 0 / 18%);
+}
+
+.spn-1{
+    background: linear-gradient(to bottom, #DE4396 0%, #0D1C9F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 45px;
+}
+.spn-2{
+    font-weight: 800;
+    font-size: 53px;
+    color: #1A202C;
+}
+.spn-3{
+    font-weight: 800;
+    font-size: 53px;
+    background: linear-gradient(to bottom, #DE4396 0%, #0D1C9F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p{
+    color: #4A5568;
+    font-weight: 400;
+    font-size: 18px;
+}
+.hero h1{
+    color: #1A202C;
+    font-weight: 300;
+    font-size: 45px;
+}
+.hero .btn{
+    background-color: #6675F7;
+}
+.custom-container {
+    width: 95% !important; /* Ensure it applies */
+}
+
+
+
+.swo h4{
+    font-weight: 600;
+    background: linear-gradient(to bottom, #DE4396 0%, #0D1C9F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+.swo p{
+    color: #4A5568;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.icon-container {
+    width: 50px;  /* Adjust size */
+    height: 50px; /* Make it a perfect circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Makes it circular */
+    background: linear-gradient(white, white) padding-box, 
+                linear-gradient(180deg, #F76680, #57007B) border-box;
+    border: 1px solid transparent; /* Transparent border to show gradient */
+}
+.card{
+    background: linear-gradient(white, white) padding-box, 
+                linear-gradient(180deg, #F76680, #57007B) border-box;
+    border: 1px solid transparent; /* Transparent border to show gradient */
+}
+.card:hover{
+    background: linear-gradient(white, white) padding-box, 
+                linear-gradient(180deg, #F76680, #57007B) border-box;
+    border: 1px solid transparent; /* Transparent border to show gradient */
+}
+
+
+
+
+
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 18rem;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+.swiper-slide-active .card {
+    border: 2px solid #ff4081;
+    transform: scale(1.1);
+}
